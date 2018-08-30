@@ -1,0 +1,14 @@
+@media screen and (max-width:480px) {
+  
+  #flavourBox > h2 {color:#651d32; margin: auto; width: 120px; height: auto; text-align:center; padding-top:90px; padding-bottom:50px;}
+  
+  .flavour_li {width:90%; height:auto; margin: auto; text-align:center;}
+  
+  .flavour_li > dl {width:100%; height:auto; background-color:#fac; margin-bottom:5%;}
+  .flavour_li > dl:last-of-type {margin-bottom: 0;} 
+
+
+
+
+
+}

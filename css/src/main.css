@@ -1,0 +1,114 @@
+/*main.css*/
+
+/*headBox*/
+@import url('./headBox/headBox_mobile.css');
+@import url('./headBox/headBox_tablet.css');
+@import url('./headBox/headBox_pc.css');
+@import url('./headBox/headBox_pc_full.css');
+
+/*mainBox*/
+@import url('./mainBox/mainBox.css');
+@import url('./mainBox/main_mobile.css');
+@import url('./mainBox/main_tablet.css');
+@import url('./mainBox/main_pc.css');
+@import url('./mainBox/main_pc_full.css');
+
+/*introBox*/
+@import url('./introBox/intro_mobile.css');
+@import url('./introBox/intro_tablet.css');
+@import url('./introBox/intro_pc.css');
+@import url('./introBox/intro_pc_full.css');
+
+/*menuBox*/
+@import url('./menuBox/menu_mobile.css');
+@import url('./menuBox/menu_tablet.css');
+@import url('./menuBox/menu_pc.css');
+@import url('./menuBox/menu_pc_full.css');
+
+/*flavourBox*/
+@import url('./flavourBox/flavour_mobile.css');
+@import url('./flavourBox/flavour_tablet.css');
+@import url('./flavourBox/flavour_pc.css');
+@import url('./flavourBox/flavour_pc_full.css');
+
+/*ingredientBox*/
+@import url('./ingredientBox/ingredient_mobile.css');
+@import url('./ingredientBox/ingredient_tablet.css');
+@import url('./ingredientBox/ingredient_pc.css');
+@import url('./ingredientBox/ingredient_pc_full.css');
+@import url('./ingredientBox/ingredient.css');
+
+/*productsBox*/
+@import url('./productsBox/productsBox_mobile.css');
+@import url('./productsBox/productsBox_tablet.css');
+@import url('./productsBox/productsBox_pc.css');
+@import url('./productsBox/productsBox_pc_full.css');
+
+/*qnaBox*/
+@import url('./qnaBox/qna_mobile.css');
+@import url('./qnaBox/qna_tablet.css');
+@import url('./qnaBox/qna_pc.css');
+@import url('./qnaBox/qna_pc_full.css');
+
+/*footBox*/
+@import url('./footBox/foot_mobile.css');
+@import url('./footBox/foot_tablet.css');
+@import url('./footBox/foot_pc.css');
+@import url('./footBox/foot_pc_full.css');
+
+
+/*size*/
+
+#wrap {width: 100%; height:100%; word-break:keep-all;}
+#wrap h2 {font-weight: normal;}
+
+#mainBox {width: 100%; overflow:hidden;}
+#introBox {width: 100%; overflow:hidden;}
+#introBox_2 {width: 100%; overflow:hidden;}
+#menuBox {width: 100%; height:100%; overflow:hidden;}
+#flavourBox {width: 100%; height:100%; overflow:hidden;}
+#ingredientBox {width: 100%; height:100%; overflow:hidden;}
+#productsBox {width: 100%; height:100%; overflow:hidden;}
+#qnaBox {width: 100%; height:100%; overflow:hidden;}
+#footBox {width: 100%; background-color:#0a1121;
+  border-top:1px solid #f9f5dc; overflow:hidden;}
+
+
+/*img*/
+#introBox {
+  background-image:url("../../img/background/intro_1.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+#introBox_2 {
+  background-image:url("../../img/background/milk.jpg");
+  background-repeat:no-repeat;
+  background-position:bottom;}
+#menuBox {
+  background-image:url("../../img/background/menu_img.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+#flavourBox {
+  background-image:url("../../img/background/flavour_2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+#ingredientBox {
+  background-image:url("../../img/background/ingredient_img_2.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+#productsBox {
+  background-image:url("../../img/background/products_img.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+#qnaBox {
+  background-image:url("../../img/background/qna_img.jpg");
+  background-repeat:no-repeat;
+  background-position:center;}
+
+
+@media screen and (max-width:768px){
+
+#introBox {background-image:url("../../img/background/intro_1_m.jpg");}
+#introBox_2 {background-image:url("../../img/background/milk_m.jpg");}
+#flavourBox {background-image:url("../../img/background/flavour_m.jpg");}
+
+}

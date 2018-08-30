@@ -1,0 +1,44 @@
+@media screen and (min-width:1367px) {
+
+  #ingredientBox {height:100%; background-size:cover;}
+  
+  #ingredientBox > h2 {font-size:40px; color:#651d32; margin:auto; padding-top:90px; padding-bottom:70px; width: 184px; height:auto;}
+
+  .ingre_li {width:47.395833vw; /*910*/ height:34.375vw; /*660*/ min-width:800px;
+    min-height:600px; background-color:#fff; margin: auto;}
+  .ingre_li > li{float:left; height: 33.333333%; background-repeat:no-repeat; box-sizing:border-box; padding:1rem;
+    background-position:center; background-size:100%;
+    position:relative; transition:all 1000ms ease;}
+
+  
+  .ingre_li > li:nth-child(2) {background-size:105%;} 
+  .ingre_li > li:nth-child(5) {height:66.666666%; float: right; background-position:left; background-size:auto 100%;}
+  
+
+  .ingre_li_1 {width:70%;}
+  .ingre_li_2 {width:30%;}
+  .ingre_li_3 {width:35%;}
+  .ingre_li_4 {width:35%;}
+  .ingre_li_5 {width:30%;}
+  .ingre_li_6 {width:35%;}
+  .ingre_li_7 {width:35%;}
+
+
+  .ingre_li > li > p {width:80%; height:auto; margin: auto; margin-top:15%; text-align:center; display: none;}
+  .ingre_li > li:nth-child(1) > p {margin-top: 10%;}
+  .ingre_li > li:nth-child(5) > p {margin-top: 50%;}
+
+  
+  .ingre_li > li:focus:before,
+  .ingre_li > li:hover:before {content:" "; display: block; width: 100%; height: 100%; background-color:rgba(255,255,255,0.8); position:absolute; top: 0; left: 0;}
+
+  .ingre_li > li:focus,
+  .ingre_li > li:hover {background-size:110%; position:relative;}
+
+  .ingre_li > li:nth-child(5):focus,
+  .ingre_li > li:nth-child(5):hover {background-size:auto 110%;}
+
+  .ingre_li > li:focus > p,
+  .ingre_li > li:hover > p {display: block; position:absolute; z-index:100; left:10%;}
+
+}

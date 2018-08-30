@@ -1,0 +1,37 @@
+@media screen and (min-width:1367px) {
+
+  #qnaBox {height: 100%; position:relative; box-sizing:border-box; padding-top: 130px; background-size:cover;}
+  #qnaBox > h2 {position:absolute; top:15%; left: 50%; font-size:40px; color:#f9f5dc; font-weight: normal; padding-bottom: 90px; width: 130px; height:44px;}
+
+  #qnaBox > p {position:absolute; top:30%; left: 50%; font-size: 26px; color:#fff; width:100%; height: auto; line-height:40px;}
+
+  .qna_li {position:absolute; top:55%; left:50%;
+    width: 400px; height: 54px; margin-top:10%; color:#fff; 
+    font-size:26px; text-transform:uppercase; text-align:center;
+    line-height:54px;}
+
+  .contact {float: left; width: 190px; height: 100%; margin-right: 20px;
+    background-color:#fff;}
+  .contact > a {color:#444;}
+  
+  .contact:hover,
+  .contact:focus {background-color:transparent; 
+  transition:600ms all ease;}
+
+  .contact:hover > a,
+  .contact:focus > a {color:#fff;}
+
+
+  .start_up {float: left; width: 190px; height: 100%; box-sizing:border-box;
+    border:2px solid rgba(255,255,255,1); transition:600ms all ease;}
+  .start_up > a {color:#fff;}
+
+  .start_up:hover,
+  .start_up:focus {border-color:rgba(255,255,255,0);}
+
+  .start_up:hover > a,
+  .start_up:focus > a {transition:600ms all ease; font-size: 28px;}
+
+
+
+}

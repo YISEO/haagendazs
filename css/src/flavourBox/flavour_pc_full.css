@@ -1,0 +1,30 @@
+@media screen and (min-width:1367px) {
+    
+    #flavourBox {height: 100%; background-color:#fff;}
+    #flavourBox > h2 {font-size:40px; color:#651d32;
+    margin: auto; padding-top: 90px; padding-bottom:
+    150px; width: 184px; height:auto;}
+
+    .flavour_li {width:70%; height:auto; margin: auto; text-align:center;}
+    .flavour_li > dl {width:15.625vw; /*300/1920*100*/ height:auto; float: left; margin-right:16%;}
+    .flavour_li > dl:last-of-type {margin-right: 0;}
+
+    .caramel > dt {font-size:22px; width: 100%; height:auto; margin-bottom:15%; color:#651d32;}
+    .caramel > dd {font-size:20px; width: 100%; height:auto; color:#444;}
+
+
+    .f_img {width:11.979167vw; height:11.979167vw; /*230/1920*100*/ border-radius:100%; margin: auto;
+     margin-bottom:20%; padding:1rem; border:0.5rem solid #651d32;
+     display: block; background-size:100%; background-position:center;
+     -webkit-background-clip:content-box;
+     -moz-background-clip:content-box;
+     -ms-background-clip:content-box;
+     -o-background-clip:content-box;
+     background-clip:content-box; background-repeat:no-repeat;}
+
+    .f_img_1 {background-image:url("../../../img/flavour/caramel.jpg");}
+    .f_img_2 {background-image:url("../../../img/flavour/dulce_de_leche.jpg");}
+    .f_img_3 {background-image:url("../../../img/flavour/vanilla_caramel_brownie.jpg");}
+    
+
+}
