@@ -1,0 +1,25 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+
+ #introBox, #introBox_2{position:relative; width: 100%; height:100%; background-size:cover; background-position:center;
+    padding-bottom:8rem; box-sizing: border-box;
+    -webkit-background-clip:content-box;
+    -moz-background-clip:content-box;
+    -ms-background-clip:content-box;
+    -o-background-clip:content-box;
+    }
+  #introBox > h2,
+  #introBox_2 > h2 {position:absolute; bottom:5rem; left: 10px; width: 100%; height: auto; color:#651d32; font-size:20px;}
+
+
+  #introBox > p, 
+  #introBox_2 > p {position:absolute; bottom:1rem;left: 10px; width:90%; height: auto;}
+
+
+  /*landing*/
+
+  .box > h2, .box > p {opacity:0; transform:translateY(3rem);}
+  .box > h2.land {opacity:1; transform:translateY(0); transition:all 600ms ease 200ms;}
+  .box > p.land {opacity:1; transform:translateY(0); transition:all 600ms ease 400ms;}
+  
+
+}

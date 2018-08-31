@@ -1,0 +1,7 @@
+@media screen and (max-width:480px) {
+
+.company_info {display: none;}
+.c_address {display: none;}
+.copyright {height:50px; margin-top: 20px; color:#fff;}
+
+}

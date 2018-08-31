@@ -1,0 +1,45 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+
+ #productsBox {background-size:cover;}
+ #productsBox > h2 {font-size:40px; color:#f9f5dc;
+    margin: auto; margin-top: 120px; padding-bottom: 50px; width:210px; height:auto;}
+
+  #productsBox > p {font-size: 26px; color:#fff; width:80%; height: auto; margin: auto; text-align:center;}
+  
+  .products_li {width:80%; height:auto; margin: auto; margin-top:50px;}
+  
+  .products_li > li {float: left; box-sizing:border-box; border:2px solid #f5f9dc; height: 180px;}
+
+  .products_1, .products_5 {width: 55%;}
+  .products_2, .products_4 {width: 40%;}
+  .products_3 {width: 100%;}
+
+  .products_1, .products_4 {margin-right:5%;}
+  .products_1, .products_2, .products_3 {margin-bottom: 18px;}
+
+  .products_li a {display: block; width: 100%; height:100%; color:#f9f5dc;
+    font-size:40px; text-transform:uppercase; text-align:right; position:relative; box-sizing:border-box; padding:1rem;}
+  .products_li a:before {content:" "; display:block; width: 90px; height: 90px; position:absolute; background-repeat:no-repeat; background-size:contain; background-position:center;}
+  
+  .products_1 > a {padding-top:4.5rem; padding-right:4rem;}
+  .products_2 > a {padding-top:3rem; padding-right:1.5rem;}
+  .products_3 > a {padding-top:4.5rem; padding-right:5rem;}
+  .products_4 > a {padding-top:7rem; text-align:center;}
+  .products_5 > a {padding-top:0.5rem; padding-left:8rem; text-align:center;}
+
+
+  .products_1 > a:before{top:28%; left:20%; 
+    background-image:url("../../../img/products/pint.svg");}
+  .products_2 > a:before{top:20%; left:10%; 
+    background-image:url("../../../img/products/mini_cup.svg");}
+  .products_3 > a:before{top:25%; left:20%; 
+    background-image:url("../../../img/products/bar.svg");}
+  .products_4 > a:before{top:15%; left:34%; 
+    background-image:url("../../../img/products/crispy.svg");}
+  .products_5 > a:before{bottom:25%; left:14%; 
+    background-image:url("../../../img/products/multi.svg");}
+
+  .products_5 > a > span {display: block; width: 0; height: 0; overflow: hidden;}
+
+
+}

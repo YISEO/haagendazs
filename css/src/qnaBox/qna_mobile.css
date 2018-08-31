@@ -1,0 +1,17 @@
+@media screen and (max-width:480px) {
+
+#qnaBox {position:relative; box-sizing:border-box; padding-top: 130px; background-size:cover; height: 90%;}
+#qnaBox > h2 {position:absolute; top:15%; left: 40%; color:#f9f5dc; width: 80px; height:auto;}
+
+#qnaBox > p {margin: auto; margin-top: 50px; width:80%; height: auto; text-align:center; font-size:18px; color:#fff;}
+
+.qna_li {position:absolute; bottom:10%; left:50%; margin-left:-80px; width:150px; height:130px; color:#fff; text-transform:uppercase; text-align:center; line-height:54px;}
+
+.contact {float: left; width:100%; height:40%; margin-right: 20px; background-color:#fff; margin-bottom:15%;}
+.contact > a {width: 100%; height: 100%; display: block; color:#444;}
+
+
+.start_up {float: left; width:100%; height:40%; box-sizing:border-box; border:2px solid #fff;}
+.start_up > a {width: 100%; height: 100%; display: block; color:#fff;}
+
+}

@@ -1,0 +1,10 @@
+@media screen and (min-width:481px) and (max-width:768px) {
+    
+    #flavourBox {background-size:cover;}
+    #flavourBox > h2 {font-size:40px; color:#651d32;
+    margin: auto; margin-top: 150px; padding-bottom:
+   50px; width: 184px; height:auto;}
+
+    #flavourBox > div {display: none;}
+
+}
