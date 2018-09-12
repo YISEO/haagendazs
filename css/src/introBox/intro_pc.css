@@ -3,25 +3,25 @@
   #introBox, #introBox_2 {height: 100%; background-size:auto 100%;}
 
   #introBox > h2,
-  #introBox_2 > h2 {font-size:40px; color:#651d32;position:relative; }
+  #introBox_2 > h2 {font-size:2.5rem; color:#651d32;position:relative; }
   
-  #introBox > h2 {width:250px; height:100px; top:20%; left:15%;}
-  #introBox_2 > h2 {width:280px; height:150px; top:30%; left:50%;
+  #introBox > h2 {width:15.625rem; height:6.25rem; top:20%; left:15%;}
+  #introBox_2 > h2 {width:17.5rem; height:9.375rem; top:30%; left:50%;
     color:#f9f5dc;}
   
   #introBox > h2:after,
   #introBox_2 > h2:after{content:" "; display: block; 
-  position:absolute; left:0; bottom:0; width: 150px;
-  height:5px; background-color:#651d32;}
+  position:absolute; left:0; bottom:0; width: 9.375rem;
+  height:0.3125rem; background-color:#651d32;}
 
   #introBox_2 > h2:after{background-color:#f9f5dc;}
 
 
   #introBox > p, 
-  #introBox_2 > p {height:auto; font-size:26px; line-height:40px; color:#444;}
+  #introBox_2 > p {height:auto; font-size:1.625rem; line-height:2.5rem; color:#444;}
 
-  #introBox > p {width:30%; margin-left: 15%; margin-top:250px;}  
-  #introBox_2 > p {width:35%; color:#fff; margin-top:350px; margin-left:50%;}
+  #introBox > p {width:30%; margin-left: 15%; margin-top:15.625rem;}  
+  #introBox_2 > p {width:35%; color:#fff; margin-top:21.875rem; margin-left:50%;}
 
 
   /*landing*/

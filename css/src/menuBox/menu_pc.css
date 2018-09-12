@@ -2,22 +2,22 @@
 
 #menuBox{height: 100%; background-size:auto 100%;}	
 
-#menuBox > h2 {font-size:40px; color:#f9f5dc; margin: auto; padding-top: 90px; padding-bottom: 90px; width: 130px; height:auto;}
+#menuBox > h2 {font-size:2.5rem; color:#f9f5dc; margin: auto; padding-top: 5.625rem; padding-bottom: 5.625rem; width: 8.125rem; height:auto;}
 
-  #menuBox > p {font-size: 26px; color:#fff; width:50%; height: auto; margin: auto; text-align:center;}
+  #menuBox > p {font-size: 1.625rem; color:#fff; width:50%; height: auto; margin: auto; text-align:center;}
   
-  .menu_list{width: 584px; height: 394px; margin: auto; margin-top:80px;}
-  .menu_list > li {width: 276px; height: 176px; float: left; margin-right:32px; margin-bottom: 40px; box-sizing:border-box; border:2px solid #f9f5dc; font-size:30px;}
+  .menu_list{width: 36.5rem; height: 24.625rem; margin: auto; margin-top:5rem;}
+  .menu_list > li {width: 17.25rem; height: 11rem; float: left; margin-right:2rem; margin-bottom: 2.5rem; box-sizing:border-box; border:2px solid #f9f5dc; font-size:1.875rem;}
   .menu_list > li:nth-child(2n) {margin-right: 0;}
   
   .menu_list > li:nth-child(3),
   .menu_list > li:nth-child(4) {margin-bottom: 0;}
 
 
-  .menu_list > li > a {position: relative; z-index: 100; display: block; color:#f9f5dc; text-align:center; text-transform:uppercase; width: 100%; height: 100%; margin: auto; overflow: hidden; line-height:176px;}
+  .menu_list > li > a {position: relative; z-index: 100; display: block; color:#f9f5dc; text-align:center; text-transform:uppercase; width: 100%; height: 100%; margin: auto; overflow: hidden; line-height:11rem;}
 
   .menu_list > li:nth-child(3) > a,
-  .menu_list > li:nth-child(4) > a {line-height:40px; box-sizing:border-box; padding-top:18%;}
+  .menu_list > li:nth-child(4) > a {line-height:2.5rem; box-sizing:border-box; padding-top:18%;}
 
   .menu_list > li > a:focus,
   .menu_list > li > a:hover {color:#444; transition:all 500ms ease;}
@@ -38,9 +38,9 @@
 
 @media screen and (min-width:769px) and (max-width:830px) {
 
-.menu_list{width: 540px; height: 354px; margin: auto; margin-top:90px;}
-.menu_list > li {width: 254px; height: 157px; margin-right:32px; margin-bottom: 40px;}
+.menu_list{width: 33.75rem; height: 22.125rem; margin: auto; margin-top:5.625rem;}
+.menu_list > li {width: 15.875rem; height: 9.8125rem; margin-right:2rem; margin-bottom: 2.5rem;}
 
-.menu_list > li > a {line-height:157px;}
+.menu_list > li > a {line-height:9.8125rem;}
 
 }

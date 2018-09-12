@@ -1,6 +1,6 @@
 @media screen and (max-width:480px) {
   
-  #flavourBox > h2 {color:#651d32; margin: auto; width: 120px; height: auto; text-align:center; padding-top:90px; padding-bottom:50px;}
+  #flavourBox > h2 {color:#651d32; margin: auto; width: 7.5rem; height: auto; text-align:center; padding-top:5.625rem; padding-bottom:3.125rem;}
   
   .flavour_li {width:90%; height:auto; margin: auto; text-align:center;}
   

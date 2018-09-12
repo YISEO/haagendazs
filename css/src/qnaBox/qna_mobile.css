@@ -1,13 +1,13 @@
 @media screen and (max-width:480px) {
 
-#qnaBox {position:relative; box-sizing:border-box; padding-top: 130px; background-size:cover; height: 90%;}
-#qnaBox > h2 {position:absolute; top:15%; left: 40%; color:#f9f5dc; width: 80px; height:auto;}
+#qnaBox {position:relative; box-sizing:border-box; padding-top: 8.125rem; background-size:cover; height: 90%;}
+#qnaBox > h2 {position:absolute; top:15%; left: 40%; color:#f9f5dc; width: 5rem; height:auto;}
 
-#qnaBox > p {margin: auto; margin-top: 50px; width:80%; height: auto; text-align:center; font-size:18px; color:#fff;}
+#qnaBox > p {margin: auto; margin-top: 3.125rem; width:80%; height: auto; text-align:center; font-size:1.125rem; color:#fff;}
 
-.qna_li {position:absolute; bottom:10%; left:50%; margin-left:-80px; width:150px; height:130px; color:#fff; text-transform:uppercase; text-align:center; line-height:54px;}
+.qna_li {position:absolute; bottom:10%; left:50%; margin-left:-5rem; width:9.375rem; height:8.125rem; color:#fff; text-transform:uppercase; text-align:center; line-height:3.375rem;}
 
-.contact {float: left; width:100%; height:40%; margin-right: 20px; background-color:#fff; margin-bottom:15%;}
+.contact {float: left; width:100%; height:40%; margin-right: 1.25rem; background-color:#fff; margin-bottom:15%;}
 .contact > a {width: 100%; height: 100%; display: block; color:#444;}
 
 

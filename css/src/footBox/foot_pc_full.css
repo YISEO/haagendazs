@@ -1,19 +1,19 @@
 @media screen and (min-width:1367px) {
   
-  #footBox {height:300px; position:relative;}
+  #footBox {height:18.75rem; position:relative;}
 
-  .company_info {margin-top:50px; margin-left:70px; width:50%; height:40px;}
+  .company_info {margin-top:3.125rem; margin-left:4.375rem; width:50%; height:2.5rem;}
   .company_info > li {width: auto; height: auto; float: left; margin-right: 10%;}
-  .company_info > li > a {color:#fff; font-size:18px;}
+  .company_info > li > a {color:#fff; font-size:1.125rem;}
 
-  .facebook {width:44px; height:44px; position:absolute; top:40px; right:50px; background-image:url("../../../img/svg/facebook.svg"); background-size:contain; background-position:center;}
+  .facebook {width:2.75rem; height:2.75rem; position:absolute; top:2.5rem; right:3.125rem; background-image:url("../../../img/svg/facebook.svg"); background-size:contain; background-position:center;}
 
 
   
-  .c_address {font-style: normal; color:#fff; font-size:18px; margin-left: 70px; margin-top: 50px; width:50%; height: auto;}
+  .c_address {font-style: normal; color:#fff; font-size:1.125rem; margin-left: 4.375rem; margin-top: 3.125rem; width:50%; height: auto;}
   .c_address > ul {width: 100%; height: auto;}
   .c_address > ul > li {width: 100%; height: auto; margin-bottom:1%;}
   
-  .copyright {width: 50%; height: auto; color:#fff; text-transform:uppercase; margin-left: 70px; margin-top: 30px;}
+  .copyright {width: 50%; height: auto; color:#fff; text-transform:uppercase; margin-left: 4.375rem; margin-top: 1.875rem;}
 
 }

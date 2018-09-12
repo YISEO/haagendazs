@@ -2,22 +2,22 @@
 
   #menuBox {background-size:cover;}
   
-  #menuBox > h2 {font-size:40px; color:#f9f5dc; margin: auto; padding-top:150px; padding-bottom:70px; width: 130px; height:auto;}
+  #menuBox > h2 {font-size:2.5rem; color:#f9f5dc; margin: auto; padding-top:9.375rem; padding-bottom:4.375rem; width: 8.125rem; height:auto;}
 
-  #menuBox > p {font-size: 26px; color:#fff; width:90%; height: auto; margin: auto; text-align:center;}
+  #menuBox > p {font-size: 1.625rem; color:#fff; width:90%; height: auto; margin: auto; text-align:center;}
   
-  .menu_list{width: 584px; height: 394px; margin: auto; margin-top:80px;}
-  .menu_list > li {width: 276px; height: 176px; float: left; margin-right:32px; margin-bottom: 40px; box-sizing:border-box; border:2px solid #f9f5dc; font-size:30px;}
+  .menu_list{width:75.520833vw; /*580/768*100*/ height:42.96875vw;/*330/768*100*/ margin: auto; margin-top:5rem;}
+  .menu_list > li {width:46%; height:46%; float: left; margin-right:4%; margin-bottom: 4%; box-sizing:border-box; border:2px solid #f9f5dc; font-size:1.875rem;}
   .menu_list > li:nth-child(2n) {margin-right: 0;}
   
   .menu_list > li:nth-child(3),
   .menu_list > li:nth-child(4) {margin-bottom: 0;}
 
 
-  .menu_list > li > a {position: relative; z-index: 100; display: block; color:#f9f5dc; text-align:center; text-transform:uppercase; width: 100%; height: 100%; margin: auto; overflow: hidden; line-height:176px;}
+  .menu_list > li > a {position: relative; z-index: 100; display: block; color:#f9f5dc; text-align:center; text-transform:uppercase; width: 100%; height: 100%; margin: auto; overflow: hidden; line-height:10rem;}
 
   .menu_list > li:nth-child(3) > a,
-  .menu_list > li:nth-child(4) > a {line-height:40px; box-sizing:border-box; padding-top:18%;}
+  .menu_list > li:nth-child(4) > a {line-height:2.5rem; box-sizing:border-box; padding-top:16%;}
 
   .menu_list > li > a:focus{color:#444; transition:all 500ms ease;}
 

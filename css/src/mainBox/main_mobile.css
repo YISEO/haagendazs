@@ -4,14 +4,14 @@
 #mainBox:before{content:" "; display:block; width:100%; height:100%; background-color:rgba(0,0,0,0.7); position:absolute; top: 0; left: 0;}
 
 
-.video_btn {width: 54px; height: 54px; border-radius:100%; position:absolute; top:55%; left:50%; z-index:300; margin-left:-27px; background-image:url("../../../img/svg/play_button.svg"); background-repeat:no-repeat; background-size:contain; background-position:center;}
+.video_btn {width:3.375rem; height:3.375rem; border-radius:100%; position:absolute; top:55%; left:50%; z-index:300; margin-left:-1.6875rem; background-image:url("../../../img/svg/play_button.svg"); background-repeat:no-repeat; background-size:contain; background-position:center;}
 .video_btn.on {background-image:url("../../../img/svg/pause_button.svg");}
 
 
-.scroll {position:absolute; bottom:5%; left:50%; margin-left:-22px; width:44px; height:auto; z-index:300; animation:ys 700ms infinite alternate;}
+.scroll {position:absolute; bottom:5%; left:50%; margin-left:-1.375rem; width:2.75rem; height:auto; z-index:300; animation:ys 700ms infinite alternate;}
 
-.scroll_btn {width:44px; height:44px; background-image:url("../../../img/svg/scroll.svg"); background-repeat:no-repeat; background-size:100%; background-position:center;}
-.scroll span {display: block; width: 100%; height: auto; text-align:center; color:#f9f5dc; margin-top:-50px; font-size:18px;}
+.scroll_btn {width:2.75rem; height:2.75rem; background-image:url("../../../img/svg/scroll.svg"); background-repeat:no-repeat; background-size:100%; background-position:center;}
+.scroll span {display: block; width: 100%; height: auto; text-align:center; color:#f9f5dc; margin-top:-3.125rem; font-size:1.125rem;}
 
   @keyframes ys {
     0% {transform:translateY(-1rem);}

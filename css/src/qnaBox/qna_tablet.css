@@ -1,19 +1,18 @@
 @media screen and (min-width:481px) and (max-width:768px) {
 
-#qnaBox {position:relative; height:100%; box-sizing:border-box; padding-top: 130px; background-size:cover;}
-#qnaBox > h2 {position:absolute; top:15%; left: 40%; font-size:40px; color:#f9f5dc; width: 130px; height:44px;}
+#qnaBox {position:relative; height:100%; box-sizing:border-box; padding-top: 8.125rem; background-size:cover;}
+#qnaBox > h2 {position:absolute; top:15%; left: 40%; font-size:2.5rem; color:#f9f5dc; width: 8.125rem; height:2.75rem;}
 
-#qnaBox > p {position:absolute; top:30%; left: 40%; font-size: 26px; color:#fff; width:60%; height: auto; line-height:40px;}
+#qnaBox > p {position:absolute; top:30%; left: 40%; font-size: 1.625rem; color:#fff; width:60%; height: auto; line-height:2.5rem;}
 
 .qna_li {position:absolute; bottom:20%; left:40%;
-    width: 400px; height: 54px; margin-top:10%; color:#fff; font-size:24px; text-transform:uppercase; text-align:center; line-height:54px;}
+    width: 25rem; height: 3.375rem; margin-top:10%; color:#fff; font-size:1.5rem; text-transform:uppercase; text-align:center; line-height:3.375rem;}
 
-.contact {float: left; width: 190px; height: 100%; margin-right: 20px; background-color:#fff;}
+.contact {float: left; width: 11.875rem; height: 100%; margin-right: 1.25rem; background-color:#fff;}
 .contact > a {width: 100%; height: 100%; display: block; color:#444;}
 
 
-.start_up {float: left; width: 190px; height: 100%; box-sizing:border-box;
-    border:2px solid #fff;}
+.start_up {float: left; width: 11.875rem; height: 100%; box-sizing:border-box; border:2px solid #fff;}
 .start_up > a {width: 100%; height: 100%; display: block; color:#fff;}
 
 }

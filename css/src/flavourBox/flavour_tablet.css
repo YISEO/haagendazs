@@ -1,9 +1,9 @@
 @media screen and (min-width:481px) and (max-width:768px) {
     
     #flavourBox {background-size:cover;}
-    #flavourBox > h2 {font-size:40px; color:#651d32;
-    margin: auto; margin-top: 150px; padding-bottom:
-   50px; width: 184px; height:auto;}
+    #flavourBox > h2 {font-size:2.5rem; color:#651d32;
+    margin: auto; margin-top: 9.375rem; padding-bottom:
+   3.125rem; width: 11.5rem; height:auto;}
 
     #flavourBox > div {display: none;}
 

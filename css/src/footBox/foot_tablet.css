@@ -1,8 +1,8 @@
 @media screen and (min-width:481px) and (max-width:768px) {
 
- #footBox {height:50px; position:relative;}
+ #footBox {height:3.125rem; position:relative;}
 .company_info {display: none;}
 .c_address {display: none;}
-.copyright {height:100%; margin-top: 10px; margin-left:20px; color:#fff;}
+.copyright {height:100%; margin-top: 0.625rem; margin-left:1.25rem; color:#fff;}
 
 }

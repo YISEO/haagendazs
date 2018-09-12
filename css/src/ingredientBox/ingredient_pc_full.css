@@ -2,10 +2,10 @@
 
   #ingredientBox {height:100%; background-size:cover;}
   
-  #ingredientBox > h2 {font-size:40px; color:#651d32; margin:auto; padding-top:90px; padding-bottom:70px; width: 184px; height:auto;}
+  #ingredientBox > h2 {font-size:2.5rem; color:#651d32; margin:auto; padding-top:5.625rem; padding-bottom:4.375rem; width: 11.5rem; height:auto;}
 
-  .ingre_li {width:47.395833vw; /*910*/ height:34.375vw; /*660*/ min-width:800px;
-    min-height:600px; background-color:#fff; margin: auto;}
+  .ingre_li {width:47.395833vw; /*910*/ height:34.375vw; /*660*/ min-width:50rem;
+    min-height:37.5rem; background-color:#fff; margin: auto;}
   .ingre_li > li{float:left; height: 33.333333%; background-repeat:no-repeat; box-sizing:border-box; padding:1rem;
     background-position:center; background-size:100%;
     position:relative; transition:all 1000ms ease;}
