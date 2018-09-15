@@ -4,8 +4,7 @@
 
 .gnb_btn {width: 3.75rem; height: 3.75rem; border-radius:100%; position:fixed; z-index:500; top:1.875rem; left:1.875rem; background-image:url("../../../img/menu_btn.png"); 
   background-size:contain; background-position:center; 
-  background-repeat:no-repeat;
-  transition:all 300ms ease-out;}
+  background-repeat:no-repeat; transition:all 300ms ease-out;}
 .gnb_btn > button {width: 100%; height: 100%;}
 .gnb_btn.on {background-image:url("../../../img/menu_btn_on.png"); 
 transform:scale(1);}
@@ -33,10 +32,9 @@ background-repeat:no-repeat; background-size:contain; background-position:center
 
 #headBox > p {width:20.625rem; height:auto; font-size:2rem; color:#fff; position:absolute; top:40%; left:50%; margin-left: -10.3125rem; text-align:center; z-index:300;}
 
-.unb {position:fixed; top:2.5rem; right:1.875rem; width: 6.25rem; height:auto; z-index:500;}
+.unb {display: none; position:fixed; top:2.5rem; right:1.875rem; width: 6.25rem; height:auto; z-index:500;}
 .language {float:left; width: 2.5rem; height: 2.5rem; margin-right:1.25rem; 
-background-image:url("../../../img/svg/language.svg"); background-repeat:no-repeat;
-background-position:center; background-size:100%;}
+background-image:url("../../../img/svg/language.svg"); background-repeat:no-repeat; background-position:center; background-size:100%;}
 .online_mall {float:left; width: 2.5rem; height: 2.5rem; 
 background-image:url("../../../img/svg/mall.svg"); background-repeat:no-repeat;
 background-position:center; background-size:100%;}

@@ -33,7 +33,7 @@ background-repeat:no-repeat; background-size:contain; background-position:center
 
 #headBox > p {width:16.875rem; height:auto; font-size:1.375rem; color:#fff; position:absolute; top:42%; left:50%; margin-left: -8.4375rem; text-align:center; z-index:300;}
 
-.unb {position:fixed; top:1.875rem; right:1.25rem; width:5rem; height:auto; z-index:500;}
+.unb {display: none; position:fixed; top:1.875rem; right:1.25rem; width:5rem; height:auto; z-index:500;}
 .language {float:left; width: 2rem; height: 2rem; margin-right:1rem; 
 background-image:url("../../../img/svg/language.svg"); background-repeat:no-repeat;
 background-position:center; background-size:100%;}

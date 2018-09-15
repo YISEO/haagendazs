@@ -1,5 +1,6 @@
 // mainBox.js
-(function(e){
+
+(function($){
 
   var gnb = $('.gnb_btn');
   var gnbBtn = gnb.children('button');
@@ -10,14 +11,17 @@
   var mySize = winH*4;
   gnbMenu.hide();
   gnbMenu.find('a').hide();
+  var unb = $('.unb');
 
-  gnbWrap.css({width:mySize, height:mySize, borderRadius:mySize,  top:'60px', left:'60px' , marginLeft:-mySize/2, marginTop:-mySize/2, transform:'scale(0)', display:'none'});
+  gnbWrap.css({width:mySize, height:mySize, borderRadius:mySize, top:'60px', left:'60px', marginLeft:-mySize/2, marginTop:-mySize/2, transform:'scale(0)', display:'none'});
+
 
   // gnb menu 나타나게 하기
   gnbBtn.on('click',function(){     
      var on = gnb.hasClass('on');
      if(on){
       gnb.removeClass('on');
+      unb.stop().delay(500).hide();
       gnbMenu.find('a').stop().slideUp(function(){ 
       gnbMenu.hide();
       });
@@ -27,6 +31,7 @@
       gnbMenu.show();
       gnbMenu.find('a').stop().delay(300).slideDown();
       gnbWrap.show();
+      unb.stop().delay(500).show();
       gnbWrap.css({transform:'scale(1)', transition:'all 600ms ease-out'});      
      };
 
